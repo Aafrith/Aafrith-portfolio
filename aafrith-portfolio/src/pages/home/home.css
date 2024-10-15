@@ -1,0 +1,64 @@
+.home {
+    display: grid;
+    grid-template-columns: 4.32fr 7.68fr;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+    height: 100vh; /* Full height of the viewport */
+    box-sizing: border-box; /* Ensure padding is considered in the overall size */
+}
+
+.home__img {
+    max-height: 88vh; /* Ensures the image height is 80% of the viewport height */
+    width: 420px; /* Keep the aspect ratio */
+    object-fit: cover;
+    border-radius: 30px;
+    box-shadow: 0 0 8px hsla(0, 0%, 0%, 0.3);
+    margin: auto; /* Ensure equal top and bottom margins */
+    display: block;
+    z-index: 1;
+    margin-right: -10px;
+}
+
+.home__data {
+    max-width: 600px;
+    margin-inline: auto;
+    padding-top: 20px;
+}
+
+.home__title {
+    position: relative;
+    font-size: var(--h1-font-size);
+    line-height: 1.24;
+    padding-left: 70px;
+}
+
+.home__title span {
+    color: var(--first-color);
+}
+
+.home__title::before {
+    content: '';
+    position: absolute;
+    top: 22%;
+    left: 0;
+    width: 40px;
+    height: 5px;
+    border-radius: 10px;
+    background-color: var(--first-color);
+}
+
+.home__description {
+    line-height: 2.125;
+    margin-block: 16px 32px;
+}
+
+.color__block {
+    position: fixed;
+    height: 200%;
+    width: 100%;
+    background-color: var(--first-color);
+    top: -50%;
+    left: -83%;
+    transform: rotate(-15deg);
+}
