@@ -118,82 +118,56 @@ export const personalInfo = [
 export const stats = [
   {
     id: 1,
-    no: '12+',
-    title: 'Years of <br /> Experience',
+    no: 'Intern',
+    title: 'Software Engineer <br /> at SLT',
   },
 
   {
     id: 2,
-    no: '97+',
+    no: '10+',
     title: 'Completed <br /> Projects',
   },
 
   {
     id: 3,
-    no: '81+',
-    title: 'Happy <br /> Customers',
+    no: 'N/A',
+    title: 'Currently <br /> Learning',
   },
 
   {
     id: 4,
-    no: '53+',
-    title: ' Awards <br /> Won',
+    no: '3+',
+    title: 'Coding <br /> Competitions',
   },
 ];
+
 
 export const resume = [
   {
     id: 1,
     category: 'experience',
     icon: <FaBriefcase />,
-    year: '2018 - PRESENT',
-    title: 'Web Developer <span> Envato </span>',
-    desc: 'Lorem ipsum dolor sit amet, consectetur tempor incididunt ut labore adipisicing elit,',
+    year: '2024 - PRESENT',
+    title: 'Software Engineer Trainee <span> SLT Mobitel </span>',
+    desc: 'Working as a Software Engineering trainee focusing on Python development and gaining hands-on experience in various projects related to software development, testing, and deployment.',
   },
 
   {
     id: 2,
-    category: 'experience',
-    icon: <FaBriefcase />,
-    year: '2013 - 2018',
-    title: 'UI/UX Designer <span> Themeforest </span>',
-    desc: 'Lorem incididunt dolor sit amet, consectetur eiusmod dunt doldunt dol elit, tempor incididunt',
+    category: 'education',
+    icon: <FaGraduationCap />,
+    year: '2021 - 2025',
+    title: 'BSc in Computer Engineering <span> University of Ruhuna </span>',
+    desc: 'Pursuing a degree in Computer Engineering with a focus on software development, algorithms, AI, and machine learning techniques.',
   },
 
   {
     id: 3,
-    category: 'experience',
-    icon: <FaBriefcase />,
-    year: '2005 - 2013',
-    title: 'Consultant <span> Videohive </span>',
-    desc: 'Lorem ipsum dolor sit amet, tempor incididunt ut laboreconsectetur elit, sed do eiusmod tempor duntt',
-  },
-
-  {
-    id: 4,
     category: 'education',
     icon: <FaGraduationCap />,
-    year: '2015',
-    title: 'Engineering Degree <span> Oxford University </span>',
-    desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do tempor incididunt ut labore',
-  },
-
-  {
-    id: 5,
-    category: 'education',
-    icon: <FaGraduationCap />,
-    year: '2012',
-    title: 'Master Degree <span> KIEV University </span>',
-    desc: 'Lorem incididunt dolor sit amet, consectetur eiusmod dunt doldunt dol elit, tempor incididunt',
-  },
-
-  {
-    id: 6,
-    category: 'education',
-    icon: <FaGraduationCap />,
-    year: '2009',
-    title: 'Bachelor Degree <span> Tunis High School </span>',
-    desc: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor ut labore',
+    year: '2019',
+    title: 'Advanced Level <span> Zahira College Kalmunai </span>',
+    desc: 'Completed A/Ls with a focus on Mathematics, gaining a strong foundation in analytical thinking and problem-solving.',
   },
 ];
 
@@ -201,49 +175,85 @@ export const skills = [
   {
     id: 1,
     title: 'Html',
-    percentage: '25',
+    percentage: '50',
   },
 
   {
     id: 2,
     title: 'Javascript',
-    percentage: '89',
+    percentage: '30',
   },
 
   {
     id: 3,
     title: 'Css',
-    percentage: '70',
+    percentage: '35',
   },
 
   {
     id: 4,
-    title: 'Php',
+    title: 'Python',
     percentage: '66',
   },
 
   {
     id: 5,
-    title: 'Wordpress',
-    percentage: '95',
+    title: 'Django Frameworks',
+    percentage: '68',
   },
 
   {
     id: 6,
-    title: 'Jquery',
+    title: 'Mysql',
     percentage: '50',
   },
 
   {
     id: 7,
-    title: 'Angular',
-    percentage: '65',
+    title: 'Figma',
+    percentage: '70',
   },
 
   {
     id: 8,
     title: 'React',
     percentage: '45',
+  },
+
+  {
+    id: 9,
+    title: 'Machine learning',
+    percentage: '50',
+  },
+
+  {
+    id: 10,
+    title: 'AI',
+    percentage: '40',
+  },
+
+  {
+    id: 11,
+    title: 'NLP',
+    percentage: '40',
+  },
+
+  {
+    id: 12,
+    title: 'Git',
+    percentage: '30',
+  },
+
+  {
+    id: 13,
+    title: 'Git Hub',
+    percentage: '50',
+  },
+
+  {
+    id: 14,
+    title: 'Bit Bucket',
+    percentage: '40',
   },
 ];
 

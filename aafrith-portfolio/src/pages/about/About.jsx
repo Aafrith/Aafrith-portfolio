@@ -2,7 +2,7 @@ import Info from "../../components/info";
 import Stats from "../../components/Stats";
 import {FaDownload} from 'react-icons/fa';
 import CV from "../../assets/aafrith-cv.pdf";
-
+import "./about.css"
 
 const About = () => {
   return (
@@ -32,6 +32,8 @@ const About = () => {
           </div>
         </div>
       </section>
+
+      <div className="seperator"></div>
     </main>
 
   )
