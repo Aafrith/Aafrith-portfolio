@@ -84,8 +84,8 @@ export const personalInfo = [
 
   {
     id: 5,
-    title: 'Freelance : ',
-    description: 'Available',
+    title: 'Current Position : ',
+    description: 'Software Engineer Trainee at SLT Mobitel',
   },
 
   {
@@ -106,12 +106,16 @@ export const personalInfo = [
     description: 'maafrith15919@gmail.com',
   },
 
-  
+  {
+    id: 9,
+    title: 'Languages : ',
+    description: 'English, Tamil and Sinhala',
+  },
 
   {
     id: 10,
-    title: 'Languages : ',
-    description: 'English, Tamil and Sinhala',
+    title: 'Education : ',
+    description: 'BSc in Computer Engineering, University of Ruhuna',
   },
 ];
 
@@ -130,8 +134,8 @@ export const stats = [
 
   {
     id: 3,
-    no: 'N/A',
-    title: 'Currently <br /> Learning',
+    no: 'Continuos',
+    title: 'Learning & <br /> Development',
   },
 
   {
@@ -186,7 +190,7 @@ export const skills = [
 
   {
     id: 3,
-    title: 'Css',
+    title: 'CSS',
     percentage: '35',
   },
 
@@ -198,7 +202,7 @@ export const skills = [
 
   {
     id: 5,
-    title: 'Django Frameworks',
+    title: 'Django',
     percentage: '68',
   },
 
@@ -222,7 +226,7 @@ export const skills = [
 
   {
     id: 9,
-    title: 'Machine learning',
+    title: 'ML',
     percentage: '50',
   },
 
@@ -254,6 +258,12 @@ export const skills = [
     id: 14,
     title: 'Bit Bucket',
     percentage: '40',
+  },
+
+  {
+    id: 14,
+    title: 'Tailwind CSS',
+    percentage: '42',
   },
 ];
 

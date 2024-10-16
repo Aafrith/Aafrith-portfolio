@@ -2,6 +2,7 @@ import Info from "../../components/info";
 import Stats from "../../components/Stats";
 import {FaDownload} from 'react-icons/fa';
 import CV from "../../assets/aafrith-cv.pdf";
+import Skills from "../../components/Skills";
 import "./about.css"
 
 const About = () => {
@@ -34,6 +35,20 @@ const About = () => {
       </section>
 
       <div className="seperator"></div>
+
+      <section className="skills">
+        <h3 className="section__subtitle subtitle__center">My Skills</h3>
+
+        <div className="skills__container grid">
+          <Skills/>
+        </div>
+      </section>
+
+      <div className="seperator"></div>
+
+      <section className="resume">
+        <h3 className="section__subtitle subtitle__center">Experience & Education</h3>
+      </section>
     </main>
 
   )
