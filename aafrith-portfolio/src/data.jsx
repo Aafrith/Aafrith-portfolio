@@ -160,8 +160,8 @@ export const resume = [
     id: 2,
     category: 'education',
     icon: <FaGraduationCap />,
-    year: '2021 - 2025',
-    title: 'BSc in Computer Engineering <span> University of Ruhuna </span>',
+    year: '2021 - 2025 - Present',
+    title: 'BSc(Hons) in Computer Engineering <span> University of Ruhuna </span>',
     desc: 'Pursuing a degree in Computer Engineering with a focus on software development, algorithms, AI, and machine learning techniques.',
   },
 
