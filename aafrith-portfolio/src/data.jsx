@@ -9,9 +9,9 @@ import {
 } from 'react-icons/fa';
 import { FiFileText, FiUser, FiExternalLink } from 'react-icons/fi';
 
-import Work1 from './assets/project-1.jpeg';
+import Work1 from './assets/project-1.jpg';
 import Work2 from './assets/project-2.jpg';
-import Work3 from './assets/project-3.jpeg';
+import Work3 from './assets/project-3.jpg';
 import Work4 from './assets/project-4.jpeg';
 import Work5 from './assets/project-5.jpg';
 import Work6 from './assets/project-6.jpg';
@@ -271,55 +271,59 @@ export const portfolio = [
   {
     id: 1,
     img: Work1,
-    title: 'Photo Editing',
+    title: 'Sports Management System',
     details: [
       {
         icon: <FiFileText />,
         title: 'Project : ',
-        desc: 'Photo',
+        desc: 'Sports Management System',
       },
       {
         icon: <FiUser />,
-        title: 'Client : ',
-        desc: 'Dribble',
+        title: 'Entity : ',
+        desc: 'Group Project',
       },
+      
       {
         icon: <FaCode />,
-        title: 'Language : ',
-        desc: 'Adobe Photoshop',
+        title: ' ',
+        desc: 'MERN, Agile, Jira, Scrum, microservices, CI/CD, Netlify and Tailwind CSS.',
       },
+
       {
         icon: <FiExternalLink />,
         title: 'Preview : ',
-        desc: 'www.dribble.com',
+        desc: 'https://eng-ruhuna-sports.netlify.app/',
       },
+
+      
     ],
   },
 
   {
     id: 2,
     img: Work2,
-    title: 'Website Design',
+    title: 'Age Prediction Project',
     details: [
       {
         icon: <FiFileText />,
         title: 'Project : ',
-        desc: 'Website',
+        desc: 'Age Prediction Project',
       },
       {
         icon: <FiUser />,
-        title: 'Client : ',
-        desc: 'Dribble',
+        title: 'Entity : ',
+        desc: 'Individual Project',
       },
       {
         icon: <FaCode />,
-        title: 'Language : ',
-        desc: 'React JS',
+        title: ' ',
+        desc: 'ML, AI, CNN, Python, Streamlit',
       },
       {
         icon: <FiExternalLink />,
         title: 'Preview : ',
-        desc: 'www.dribble.com',
+        desc: 'https://github.com/Aafrith/Age-prediction-CNN',
       },
     ],
   },
@@ -327,27 +331,27 @@ export const portfolio = [
   {
     id: 3,
     img: Work3,
-    title: 'Video Editing',
+    title: 'Ecommerce Website',
     details: [
       {
         icon: <FiFileText />,
         title: 'Project : ',
-        desc: 'Video',
+        desc: 'Ecommerce Website',
       },
       {
         icon: <FiUser />,
-        title: 'Client : ',
-        desc: 'Dribble',
+        title: 'Entity : ',
+        desc: 'Individual Project',
       },
       {
         icon: <FaCode />,
-        title: 'Language : ',
-        desc: 'Adobe Premium',
+        title: ' ',
+        desc: 'Python, Django, Html, Bootstrap, CSS, and Javascript',
       },
       {
         icon: <FiExternalLink />,
         title: 'Preview : ',
-        desc: 'www.dribble.com',
+        desc: 'https://github.com/Aafrith/Shopkart',
       },
     ],
   },
@@ -355,27 +359,27 @@ export const portfolio = [
   {
     id: 4,
     img: Work4,
-    title: 'Video Editing',
+    title: 'Portfolio Web Application',
     details: [
       {
         icon: <FiFileText />,
         title: 'Project : ',
-        desc: 'Video',
+        desc: 'Portfolio Web Application',
       },
       {
         icon: <FiUser />,
-        title: 'Client : ',
-        desc: 'Dribble',
+        title: 'Entity ',
+        desc: 'Individual Project',
       },
       {
         icon: <FaCode />,
-        title: 'Language : ',
-        desc: 'Adobe Premium',
+        title: ' ',
+        desc: 'JavaScript, React, HTML, and CSS',
       },
       {
         icon: <FiExternalLink />,
         title: 'Preview : ',
-        desc: 'www.dribble.com',
+        desc: 'https://github.com/Aafrith/Aafrith-portfolio',
       },
     ],
   },
@@ -383,23 +387,23 @@ export const portfolio = [
   {
     id: 5,
     img: Work5,
-    title: 'Landing Page',
+    title: 'Hotel Management System',
     details: [
       {
         title: 'Project : ',
-        desc: 'Website',
+        desc: 'Hotel Management System',
       },
       {
-        title: 'Client : ',
-        desc: 'Dribble',
+        title: 'Entity : ',
+        desc: 'Individual Project',
       },
       {
-        title: 'Language : ',
-        desc: 'React JS, Node JS',
+        title: ' ',
+        desc: 'Python, Django, Html, CSS and JavaScript',
       },
       {
         title: 'Preview : ',
-        desc: 'www.dribble.com',
+        desc: 'https://github.com/Aafrith/Hotel-Management-System',
       },
     ],
   },
@@ -407,27 +411,27 @@ export const portfolio = [
   {
     id: 6,
     img: Work6,
-    title: 'Photo Editing',
+    title: 'Django CRUD Application',
     details: [
       {
         icon: <FiFileText />,
         title: 'Project : ',
-        desc: 'Photo',
+        desc: 'Django CRUD Application',
       },
       {
         icon: <FiUser />,
-        title: 'Client : ',
-        desc: 'Dribble',
+        title: 'Entity : ',
+        desc: 'Individual Project',
       },
       {
         icon: <FaCode />,
-        title: 'Language : ',
-        desc: 'Adobe Photoshop',
+        title: ' ',
+        desc: 'Python, Django, Html, CSS, Bootstrap, and Javascript',
       },
       {
         icon: <FiExternalLink />,
         title: 'Preview : ',
-        desc: 'www.dibble.com',
+        desc: 'https://github.com/Aafrith/Python-Crud-app',
       },
     ],
   },
