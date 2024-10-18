@@ -10,13 +10,24 @@
     border-radius: 10px;
     overflow: hidden;
     cursor: pointer;
-    margin-top: -5px;
+    margin-top: -10px;
     border: 1px solid var(--first-color);
+
 }
+
+.portfolio__item-title {
+    text-align: center;
+    font-size: var(--small-font-size); /* Or another font size variable */
+    color: var(--text-white); /* Customize title color */
+    font-weight: var(--weight-600); /* Customize weight */
+    margin-top: 10px; /* Add some margin between the image and the title */
+    background-color: var(--first-color);
+}
+
 
 .portfolio__item img {
     width: 100%;
-    height: 200px; /* Adjusted height to make images smaller */
+    height: 180px; /* Adjusted height to make images smaller */
     object-fit: cover;
     vertical-align: middle;
     
@@ -57,11 +68,12 @@
     display: grid;
     place-items: center;
     padding: 15px;
+    
 }
 
 .portfolio__modal-content {
     background-color: var(--container-color);
-    max-width: 650px;
+    max-width: 600px;
     width: 100%;
     padding: 32px;
     border-radius: 10px;
@@ -84,6 +96,7 @@
     font-size: var(--h2-font-size);
     letter-spacing: 2px;
     margin-bottom: 24px;
+    
 }
 
 .modal__list {
@@ -101,6 +114,7 @@
 .item__icon {
     display: flex;
 }
+
 
 .item__title,
 .item__details {

@@ -292,7 +292,7 @@ export const portfolio = [
 
       {
         icon: <FiExternalLink />,
-        title: 'Preview : ',
+        title: 'Link : ',
         desc: 'https://eng-ruhuna-sports.netlify.app/',
       },
 
@@ -322,7 +322,7 @@ export const portfolio = [
       },
       {
         icon: <FiExternalLink />,
-        title: 'Preview : ',
+        title: 'Link : ',
         desc: 'https://github.com/Aafrith/Age-prediction-CNN',
       },
     ],
@@ -350,7 +350,7 @@ export const portfolio = [
       },
       {
         icon: <FiExternalLink />,
-        title: 'Preview : ',
+        title: 'Link : ',
         desc: 'https://github.com/Aafrith/Shopkart',
       },
     ],
@@ -378,7 +378,7 @@ export const portfolio = [
       },
       {
         icon: <FiExternalLink />,
-        title: 'Preview : ',
+        title: 'Link : ',
         desc: 'https://github.com/Aafrith/Aafrith-portfolio',
       },
     ],
@@ -402,7 +402,7 @@ export const portfolio = [
         desc: 'Python, Django, Html, CSS and JavaScript',
       },
       {
-        title: 'Preview : ',
+        title: 'Link : ',
         desc: 'https://github.com/Aafrith/Hotel-Management-System',
       },
     ],
@@ -430,7 +430,7 @@ export const portfolio = [
       },
       {
         icon: <FiExternalLink />,
-        title: 'Preview : ',
+        title: 'Link : ',
         desc: 'https://github.com/Aafrith/Python-Crud-app',
       },
     ],

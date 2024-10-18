@@ -13,6 +13,9 @@ const PortfolioItem = ({ img, title, details }) => {
     <div className="portfolio__item">
       <img src={img} alt="" className="portfolio__img" />
 
+      {/* Title under the image */}
+      <h3 className="portfolio__item-title">{title}</h3>
+
       <div className="portfolio__hover" onClick={toggleModal}>
         {/* Display the title in the hover section */}
         <h3 className="portfolio__title">{title}</h3>
@@ -37,7 +40,7 @@ const PortfolioItem = ({ img, title, details }) => {
             </svg>
 
             {/* Modal title */}
-            <h3 className="modal__title">{title}</h3>
+            <h3 className="modal__title" style={{ textDecoration: 'underline' }}>{title}</h3>
 
             {/* Details list */}
             <ul className="modal__list grid">
@@ -47,8 +50,8 @@ const PortfolioItem = ({ img, title, details }) => {
                   <span className="item__icon">{icon}</span>
                   {/* Title and description */}
                   <div>
-                    <span className="item__title">{title}</span>
-                    {title === 'Preview : ' ? (
+                    <span className="item__title" >{title}</span>
+                    {title === 'Link : ' ? (
                       <a 
                         href={desc} 
                         target="_blank" 
