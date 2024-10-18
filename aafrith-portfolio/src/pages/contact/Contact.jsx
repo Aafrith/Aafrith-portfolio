@@ -33,7 +33,7 @@ const Contact = () => {
 
               <div>
                 <span className="info__title">Mail me</span>
-                <span className="info__desc">maafrith15919@gmail.com</span>
+                <h4 className="info__desc">maafrith15919@gmail.com</h4>
               </div>
             </div>
           </div>
@@ -44,16 +44,16 @@ const Contact = () => {
 
               <div>
                 <span className="info__title">Call me</span>
-                <span className="info__desc">+94773054223</span>
+                <h4 className="info__desc">+94773054223</h4>
               </div>
             </div>
           </div>
 
           <div className="contact__socials">
-            <a href="https://fb.com/mohamed aafrith" className="contact__social-link"><FaFacebookF/></a>
-            <a href="https://instagram.com/m_aafrith99" className="contact__social-link"><FaInstagram/></a>
-            <a href="https://linkedin.com/in/mohamed aafrith" className="contact__social-link"><FaLinkedin/></a>
-            <a href="https://www.hackerrank.com/profile/Aafrith3795" className="contact__social-link"><FaHackerrank/></a>
+            <a href="https://fb.com/mohamed aafrith" className="contact__social-link" target='blank'><FaFacebookF/></a>
+            <a href="https://instagram.com/m_aafrith99" className="contact__social-link" target='blank'><FaInstagram/></a>
+            <a href="https://linkedin.com/in/mohamed aafrith" className="contact__social-link" target='blank'><FaLinkedin/></a>
+            <a href="https://www.hackerrank.com/profile/Aafrith3795" className="contact__social-link" target='blank'><FaHackerrank/></a>
           </div>
 
 
