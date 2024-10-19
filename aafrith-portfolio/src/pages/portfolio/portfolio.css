@@ -101,7 +101,7 @@
 
 .modal__list {
     grid-template-columns: repeat(2, 1fr);
-    row-gap: 20px;
+    row-gap: 20px !important;
     margin-bottom: 24px;
 }
 
