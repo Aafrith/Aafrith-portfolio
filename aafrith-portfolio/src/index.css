@@ -264,6 +264,25 @@
     .home__description {
         text-align: justify;
     }
+
+    .info__title {
+        display: block;
+        margin-bottom: 4px;
+    }
+
+    .stats__box {
+        padding: 15px 15px 25px 20px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .home__title span {
+        display: inline;
+    }
+
+    .stats {
+        grid-template-columns: 1fr;
+    }
 }
 
 
