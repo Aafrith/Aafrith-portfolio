@@ -16,7 +16,7 @@ const Home = () => {
           </h1>
 
           <p className="home__description">
-            👋 Hi, I&apos;m a Software Engineer with a passion for building innovative software. I specialize in software development and have a strong interest in AI and ML.
+            👋 Hi, I&apos;m a Software Engineer with a passion for building innovative softwares. I specialize in software development and have a strong interest in AI and ML.
           </p>
 
           <div className="buttons-group">
