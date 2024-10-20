@@ -27,6 +27,7 @@ const transporter = nodemailer.createTransport({
 
 // POST route to handle contact form submissions
 app.post("/api/contact", (req, res) => {
+    console.log("Received request:", req.body); // log incoming request
     const { name, email, subject, message } = req.body;
 
     const mailOptions = {

@@ -220,6 +220,7 @@
         height: 300px;
     }
 
+
     .form__input-group {
         grid-template-columns: 1fr;
     }

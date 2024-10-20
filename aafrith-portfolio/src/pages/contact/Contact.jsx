@@ -27,6 +27,13 @@ const Contact = () => {
   // Handle form submission
   const handleSubmit = async (e) => {
     e.preventDefault();
+
+    // Check if any fields are empty
+  if (!formData.name || !formData.email || !formData.subject || !formData.message) {
+    alert("Please fill out all the fields.");
+    return;
+  }
+
     try {
       const response = await fetch("http://localhost:5000/api/contact", {
         method: "POST",
@@ -103,7 +110,7 @@ const Contact = () => {
               <FaInstagram />
             </a>
             <a
-              href="https://linkedin.com/in/mohamed aafrith"
+              href="https://www.linkedin.com/in/mohamed-aafrith-100391215/"
               className="contact__social-link"
               target="blank"
             >

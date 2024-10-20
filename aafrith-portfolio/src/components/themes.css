@@ -83,3 +83,10 @@
     top: 2%;
     right: 15%;
 }
+
+
+@media (max-width: 768px) {
+    .style__switcher {
+        top: 2%; /* Adjust this value as needed */
+    }
+}

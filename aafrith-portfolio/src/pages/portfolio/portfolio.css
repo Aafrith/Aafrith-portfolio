@@ -133,3 +133,19 @@
     border-radius: 10px;
     
 }
+
+@media screen and (max-width: 768px) {
+    .portfolio__container {
+        grid-template-columns: repeat(2, 1fr); /* Change the layout to 2 columns */
+    }
+
+    .portfolio__item {
+        margin: 1px auto; /* Add margin between items */
+        width: 95%; /* Reduce the width of each project */
+        margin-top: 10px;
+    }
+
+    .modal__close {
+        fill: var(--text-white); /* Change the color of the close button */
+    }
+}
