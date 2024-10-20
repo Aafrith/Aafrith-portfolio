@@ -25,6 +25,11 @@ const transporter = nodemailer.createTransport({
     },
 });
 
+// Simple GET route for root URL
+app.get("/", (req, res) => {
+    res.send("Welcome to the Portfolio Backend!");
+});
+
 // POST route to handle contact form submissions
 app.post("/api/contact", (req, res) => {
     console.log("Received request:", req.body); // log incoming request
