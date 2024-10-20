@@ -1,5 +1,5 @@
-import { useState } from 'react'; 
-import PropTypes from 'prop-types';     
+import { useState } from "react";
+import PropTypes from "prop-types";
 import Close from "../assets/close.svg";
 
 const PortfolioItem = ({ img, title, details }) => {
@@ -40,7 +40,12 @@ const PortfolioItem = ({ img, title, details }) => {
             </svg>
 
             {/* Modal title */}
-            <h3 className="modal__title" style={{ textDecoration: 'underline' }}>{title}</h3>
+            <h3
+              className="modal__title"
+              style={{ textDecoration: "underline" }}
+            >
+              {title}
+            </h3>
 
             {/* Details list */}
             <ul className="modal__list grid">
@@ -50,14 +55,14 @@ const PortfolioItem = ({ img, title, details }) => {
                   <span className="item__icon">{icon}</span>
                   {/* Title and description */}
                   <div>
-                    <span className="item__title" >{title}</span>
-                    {title === 'Link : ' ? (
-                      <a 
-                        href={desc} 
-                        target="_blank" 
-                        rel="noopener noreferrer" 
+                    <span className="item__title">{title}</span>
+                    {title === "Link : " ? (
+                      <a
+                        href={desc}
+                        target="_blank"
+                        rel="noopener noreferrer"
                         className="item__details"
-                        style={{ color: 'blue', textDecoration: 'underline' }} // Make the link more visible
+                        style={{ color: "blue", textDecoration: "underline" }} // Make the link more visible
                       >
                         {desc}
                       </a>
@@ -70,9 +75,8 @@ const PortfolioItem = ({ img, title, details }) => {
             </ul>
 
             {/* Image in modal */}
-            
+
             <img src={img} alt={title} className="modal__img" />
-    
           </div>
         </div>
       )}
@@ -82,13 +86,13 @@ const PortfolioItem = ({ img, title, details }) => {
 
 // Add PropTypes validation
 PortfolioItem.propTypes = {
-  img: PropTypes.string.isRequired,    
-  title: PropTypes.string.isRequired,  
-  details: PropTypes.arrayOf(          
+  img: PropTypes.string.isRequired,
+  title: PropTypes.string.isRequired,
+  details: PropTypes.arrayOf(
     PropTypes.shape({
-      icon: PropTypes.element,         
-      title: PropTypes.string.isRequired,  
-      desc: PropTypes.string.isRequired,   
+      icon: PropTypes.element,
+      title: PropTypes.string.isRequired,
+      desc: PropTypes.string.isRequired,
     })
   ).isRequired,
 };

@@ -29,10 +29,15 @@ const Contact = () => {
     e.preventDefault();
 
     // Check if any fields are empty
-  if (!formData.name || !formData.email || !formData.subject || !formData.message) {
-    alert("Please fill out all the fields.");
-    return;
-  }
+    if (
+      !formData.name ||
+      !formData.email ||
+      !formData.subject ||
+      !formData.message
+    ) {
+      alert("Please fill out all the fields.");
+      return;
+    }
 
     try {
       const response = await fetch("http://localhost:5000/api/contact", {

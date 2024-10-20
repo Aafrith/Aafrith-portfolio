@@ -1,169 +1,166 @@
 .home {
-    display: grid;
-    grid-template-columns: 4.32fr 7.68fr;
-    align-items: center;
-    justify-content: center;
-    padding: 40px;
-    height: 100vh; /* Full height of the viewport */
-    box-sizing: border-box; /* Ensure padding is considered in the overall size */
+  display: grid;
+  grid-template-columns: 4.32fr 7.68fr;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  height: 100vh; /* Full height of the viewport */
+  box-sizing: border-box; /* Ensure padding is considered in the overall size */
 }
 
 .home__img {
-    max-height: 88vh; /* Ensures the image height is 80% of the viewport height */
-    width: 440px; /* Keep the aspect ratio */
-    object-fit: cover;
-    border-radius: 30px;
-    box-shadow: 0 0 8px hsla(0, 0%, 0%, 0.3);
-    margin: auto; /* Ensure equal top and bottom margins */
-    display: block;
-    z-index: 1;
-    margin-right: -35px;
-    border-radius: 50%;  /* Make the image circular */
-    border: 5px solid var(--first-color);  /* First border */
-    padding: 5px;  /* Gap between borders */
-    background-clip: content-box; /* Ensures the background doesn't cover the padding */
+  max-height: 88vh; /* Ensures the image height is 80% of the viewport height */
+  width: 440px; /* Keep the aspect ratio */
+  object-fit: cover;
+  border-radius: 30px;
+  box-shadow: 0 0 8px hsla(0, 0%, 0%, 0.3);
+  margin: auto; /* Ensure equal top and bottom margins */
+  display: block;
+  z-index: 1;
+  margin-right: -35px;
+  border-radius: 50%; /* Make the image circular */
+  border: 5px solid var(--first-color); /* First border */
+  padding: 5px; /* Gap between borders */
+  background-clip: content-box; /* Ensures the background doesn't cover the padding */
 
-    /* Second outer border */
-    box-shadow: 0 0 0 5px var(--text-white);
-    transition: transform 1s ease;
+  /* Second outer border */
+  box-shadow: 0 0 0 5px var(--text-white);
+  transition: transform 1s ease;
 }
 
 .home__img:hover {
-    transform: translateX(-30px);
+  transform: translateX(-30px);
 }
 
 .home__data {
-    max-width: 600px;
-    margin-inline: auto;
-    padding-top: 20px;
+  max-width: 600px;
+  margin-inline: auto;
+  padding-top: 20px;
 }
 
 .home__title {
-    position: relative;
-    font-size: var(--h1-font-size);
-    line-height: 1.24;
-    padding-left: 70px;
-    transition: transform 1s ease;
+  position: relative;
+  font-size: var(--h1-font-size);
+  line-height: 1.24;
+  padding-left: 70px;
+  transition: transform 1s ease;
 }
 
 .home__title:hover {
-    transform: translateX(-50px);
+  transform: translateX(-50px);
 }
 
 .home__title span {
-    color: var(--first-color);
+  color: var(--first-color);
 }
 
 .home__title::before {
-    content: '';
-    position: absolute;
-    top: 22%;
-    left: 0;
-    width: 40px;
-    height: 5px;
-    border-radius: 10px;
-    background-color: var(--first-color);
+  content: "";
+  position: absolute;
+  top: 22%;
+  left: 0;
+  width: 40px;
+  height: 5px;
+  border-radius: 10px;
+  background-color: var(--first-color);
 }
 
 .home__description {
-    line-height: 2.125;
-    margin-block: 16px 32px;
-    transition: transform 1s ease;
+  line-height: 2.125;
+  margin-block: 16px 32px;
+  transition: transform 1s ease;
 }
 
 .home__description:hover {
-    transform: translateX(-40px);
+  transform: translateX(-40px);
 }
 
 .color__block {
-    position: fixed;
-    height: 200%;
-    width: 100%;
-    background-color: var(--first-color);
-    top: -50%;
-    left: -83%;
-    transform: rotate(-15deg);
+  position: fixed;
+  height: 200%;
+  width: 100%;
+  background-color: var(--first-color);
+  top: -50%;
+  left: -83%;
+  transform: rotate(-15deg);
 }
 
 .buttons-group {
-    display: flex;
-    gap: 15px;
-    align-items: center;
+  display: flex;
+  gap: 15px;
+  align-items: center;
 }
 
 .social-button {
-    display: inline-block;
-    color: var(--title-color);
-    border: 1px solid var(--first-color);
-    width: 55px;
-    height: 55px;
-    border-radius: 50%;
-    font-size: var(--h3-font-size);
-    text-align: center;
-    line-height: 57px;
-    position: relative;
-    overflow: hidden;
-    transition: all 0.25s ease-in-out;
+  display: inline-block;
+  color: var(--title-color);
+  border: 1px solid var(--first-color);
+  width: 55px;
+  height: 55px;
+  border-radius: 50%;
+  font-size: var(--h3-font-size);
+  text-align: center;
+  line-height: 57px;
+  position: relative;
+  overflow: hidden;
+  transition: all 0.25s ease-in-out;
 }
 
 .social-button:hover {
-    color: var(--text-white);
+  color: var(--text-white);
 }
 
 .social-button::before {
-    content: '';
-    position: absolute;
-    inset: 0;
-    background-color: var(--first-color);
-    transform: translateX(100%);
-    z-index: -1;
-    transition: all 0.3s ease-out;
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: var(--first-color);
+  transform: translateX(100%);
+  z-index: -1;
+  transition: all 0.3s ease-out;
 }
 
 .social-button:hover::before {
-    transform: translateX(0);
+  transform: translateX(0);
 }
 
 @media screen and (max-width: 768px) {
-    .home {
-        grid-template-columns: 1fr;
-        justify-items: center;
-        row-gap: 10px;
-    }
+  .home {
+    grid-template-columns: 1fr;
+    justify-items: center;
+    row-gap: 10px;
+  }
 
-    .color__block {
-        display: none;
-    }
+  .color__block {
+    display: none;
+  }
 
-    .home__img {
-        width: 300px;
-        height: 300px;
-        border-radius: 50%;  /* Make the image circular */
-        border: 5px solid var(--first-color);  /* First border */
-        padding: 10px;  /* Gap between borders */
-        background-clip: content-box; /* Ensures the background doesn't cover the padding */
+  .home__img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%; /* Make the image circular */
+    border: 5px solid var(--first-color); /* First border */
+    padding: 10px; /* Gap between borders */
+    background-clip: content-box; /* Ensures the background doesn't cover the padding */
 
-        /* Second outer border */
-        box-shadow: 0 0 0 3px var(--text-white); /* Outer border (white, for example) */
-        margin: auto;
-    }
+    /* Second outer border */
+    box-shadow: 0 0 0 3px var(--text-white); /* Outer border (white, for example) */
+    margin: auto;
+  }
 
-    .home__content {
-        max-width: 500px;
-        text-align: center;
-        margin-bottom: auto;
-        
-    }
+  .home__content {
+    max-width: 500px;
+    text-align: center;
+    margin-bottom: auto;
+  }
 
-    .buttons-group {
-        
-        flex-direction: column;   /* Stack buttons vertically */
-        align-items: center;      /* Center the buttons */
-        gap: 10px;
-    }
+  .buttons-group {
+    flex-direction: column; /* Stack buttons vertically */
+    align-items: center; /* Center the buttons */
+    gap: 10px;
+  }
 
-    .social-button {
-        margin-top: 10px;
-    }
+  .social-button {
+    margin-top: 10px;
+  }
 }
-

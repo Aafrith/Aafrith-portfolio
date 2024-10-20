@@ -1,5 +1,5 @@
-import PropTypes from 'prop-types';
-import parse from 'html-react-parser';
+import PropTypes from "prop-types";
+import parse from "html-react-parser";
 
 const ResumeItem = ({ icon, year, title, desc }) => {
   return (
@@ -15,10 +15,10 @@ const ResumeItem = ({ icon, year, title, desc }) => {
 
 // Define the prop types
 ResumeItem.propTypes = {
-  icon: PropTypes.element.isRequired,  // Ensures icon is a React element
-  year: PropTypes.string.isRequired,   // Ensures year is a string
-  title: PropTypes.string.isRequired,  // Ensures title is a string
-  desc: PropTypes.string.isRequired,   // Ensures desc is a string
+  icon: PropTypes.element.isRequired, // Ensures icon is a React element
+  year: PropTypes.string.isRequired, // Ensures year is a string
+  title: PropTypes.string.isRequired, // Ensures title is a string
+  desc: PropTypes.string.isRequired, // Ensures desc is a string
 };
 
 export default ResumeItem;

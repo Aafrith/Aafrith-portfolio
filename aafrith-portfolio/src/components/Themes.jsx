@@ -6,21 +6,21 @@ import "./themes.css";
 import { useEffect, useState } from "react";
 
 const getStorageColor = () => {
-    let color = 'hsl(252, 35%, 51%)';
-    if(localStorage.getItem('color')) {
-        color = localStorage.getItem('color');
-    }
+  let color = "hsl(252, 35%, 51%)";
+  if (localStorage.getItem("color")) {
+    color = localStorage.getItem("color");
+  }
 
-    return color;
+  return color;
 };
 
 const getStorageTheme = () => {
-    let theme = 'light-theme';
-    if(localStorage.getItem('theme')) {
-        theme = localStorage.getItem('theme');
-    }
+  let theme = "light-theme";
+  if (localStorage.getItem("theme")) {
+    theme = localStorage.getItem("theme");
+  }
 
-    return theme;
+  return theme;
 };
 
 const Themes = () => {
@@ -33,21 +33,21 @@ const Themes = () => {
   };
 
   const toggleTheme = () => {
-    if(theme === 'light-theme') {
-        setTheme('dark-theme');
+    if (theme === "light-theme") {
+      setTheme("dark-theme");
     } else {
-        setTheme('light-theme');
+      setTheme("light-theme");
     }
-};
+  };
 
   useEffect(() => {
     document.documentElement.style.setProperty("--first-color", color);
-    localStorage.setItem('color', color);
+    localStorage.setItem("color", color);
   }, [color]);
 
   useEffect(() => {
     document.documentElement.className = theme;
-    localStorage.setItem('theme', theme);
+    localStorage.setItem("theme", theme);
   }, [theme]);
 
   return (
@@ -61,7 +61,7 @@ const Themes = () => {
         </div>
 
         <div className="theme__toggler" onClick={toggleTheme}>
-          {theme === 'light-theme' ? <BsMoon /> : <BsSun />}
+          {theme === "light-theme" ? <BsMoon /> : <BsSun />}
         </div>
 
         <h3 className="style__switcher-title">Style Switcher</h3>
