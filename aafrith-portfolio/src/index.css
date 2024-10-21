@@ -246,9 +246,6 @@
 }
 
 @media screen and (max-width: 450px) {
-  .home__img {
-    display: none;
-  }
 
   .home__content {
     margin-block: auto;
