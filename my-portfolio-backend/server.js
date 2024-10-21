@@ -10,7 +10,7 @@ const PORT = process.env.PORT || 5000;
 
 // Middleware
 app.use(cors({
-  origin: 'https://aafrith-portfolio-1999.vercel.app/', // React frontend URL
+  origin: 'http://localhost:5173', // React frontend URL
   methods: ['GET', 'POST'],
 }));
 app.use(bodyParser.json());
