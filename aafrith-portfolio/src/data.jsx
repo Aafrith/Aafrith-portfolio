@@ -15,6 +15,12 @@ import Work3 from "./assets/project-3.jpg";
 import Work4 from "./assets/project-4.jpeg";
 import Work5 from "./assets/project-5.jpg";
 import Work6 from "./assets/project-6.jpg";
+import Work7 from "./assets/ML1.png";
+import Work8 from "./assets/DL1.png";
+import Work9 from "./assets/DL2.png";
+import Work10 from "./assets/AZ1.png";
+import Work11 from "./assets/AW1.png";
+import Work12 from "./assets/huawei.jpeg";
 
 import Theme1 from "./assets/purple.png";
 import Theme2 from "./assets/red.png";
@@ -434,6 +440,51 @@ export const portfolio = [
     ],
   },
 ];
+
+export const certifications = [
+  {
+    id: 1,
+    img: Work7, // Add your certification images
+    title: "Machine Learning specialization",
+    link: "https://www.coursera.org/account/accomplishments/specialization/NLMJ7QRLT78H",
+  },
+  {
+    id: 2,
+    img: Work8,
+    title: "Deep Learning specialization",
+    link: "https://www.coursera.org/account/accomplishments/specialization/DGEKC62VDWCT",
+  },
+
+  {
+    id: 3,
+    img: Work9,
+    title: "IBM AI Engineering",
+    link: "https://www.coursera.org/account/accomplishments/professional-cert/S6UUD8LVSHMW",
+  },
+
+  {
+    id: 4,
+    img: Work10,
+    title: "Microsoft Azure Data Scientist",
+    link: "https://www.coursera.org/account/accomplishments/professional-cert/RMR3EKCKFEEY",
+  },
+
+  {
+    id: 5,
+    img: Work11,
+    title: "AWS Cloud Solutions Architect",
+    link: "https://www.coursera.org/account/accomplishments/professional-cert/DWCKCMHQTLB6",
+  },
+
+  {
+    id: 6,
+    img: Work12,
+    title: "Huawei ICT Competition 2023-2024",
+    link: "https://drive.google.com/file/d/1aMHnwbgghnhUmflCDLogV_KS23tk-9CZ/view",
+  },
+  
+];
+
 
 export const themes = [
   {
