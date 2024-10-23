@@ -27,26 +27,26 @@ const Contact = () => {
   // Handle form submission
   const handleSubmit = async (e) => {
     e.preventDefault();
-
+  
     // Check if any fields are empty
-    if (
-      !formData.name ||
-      !formData.email ||
-      !formData.subject ||
-      !formData.message
-    ) {
+    if (!formData.name || !formData.email || !formData.subject || !formData.message) {
       alert("Please fill out all the fields.");
       return;
     }
-
+  
+    const form = new FormData();
+    form.append("access_key", "cb90afe0-2213-4798-a825-5ab02fd78caa"); // Add your Web3Forms access key here
+    form.append("name", formData.name);
+    form.append("email", formData.email);
+    form.append("subject", formData.subject);
+    form.append("message", formData.message);
+  
     try {
-      const response = await fetch("http://localhost:5000/api/contact", {
+      const response = await fetch("https://api.web3forms.com/submit", {
         method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(formData),
+        body: form,
       });
+  
       if (response.ok) {
         alert("Message sent successfully!");
         setFormData({
@@ -63,6 +63,7 @@ const Contact = () => {
       alert("An error occurred. Please try again later.");
     }
   };
+  
 
   return (
     <section className="contact section">
