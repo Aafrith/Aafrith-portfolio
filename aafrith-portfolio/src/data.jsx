@@ -9,12 +9,13 @@ import {
 } from "react-icons/fa";
 import { FiFileText, FiUser, FiExternalLink } from "react-icons/fi";
 
-import Work1 from "./assets/project-1.jpg";
-import Work2 from "./assets/project-2.jpg";
-import Work3 from "./assets/project-3.jpg";
-import Work4 from "./assets/project-4.jpeg";
-import Work5 from "./assets/project-5.jpg";
-import Work6 from "./assets/project-6.jpg";
+import SportsManagement from "./assets/sports-management.svg";
+import EcommerceStore from "./assets/ecommerce-store.svg";
+import PortfolioApp from "./assets/portfolio-app.svg";
+import DjangoCrud from "./assets/django-crud.svg";
+import EmotionHci from "./assets/emotion-hci.svg";
+import LearningTracking from "./assets/learning-tracking.svg";
+import SmartMoney from "./assets/smart-money.svg";
 import Work7 from "./assets/ML1.png";
 import Work8 from "./assets/DL1.png";
 import Work9 from "./assets/DL2.png";
@@ -79,7 +80,7 @@ export const personalInfo = [
   {
     id: 3,
     title: "Age : ",
-    description: "25 Years",
+    description: "27 Years",
   },
 
   {
@@ -91,7 +92,7 @@ export const personalInfo = [
   {
     id: 5,
     title: "Current Position : ",
-    description: "Software Engineer Trainee at SLT Mobitel",
+    description: "AI Engineer / Software Engineer",
   },
 
   {
@@ -128,13 +129,13 @@ export const personalInfo = [
 export const stats = [
   {
     id: 1,
-    no: "Intern",
-    title: "Software Engineer <br /> at SLT",
+    no: "AI Engineer",
+    title: "Developer",
   },
 
   {
     id: 2,
-    no: "10+",
+    no: "50+",
     title: "Completed <br /> Projects",
   },
 
@@ -153,31 +154,40 @@ export const stats = [
 
 export const resume = [
   {
-    id: 1,
+    id: 2,
     category: "experience",
     icon: <FaBriefcase />,
-    year: "2024 - PRESENT",
-    title: "Software Engineer Trainee <span> SLT Mobitel </span>",
-    desc: "Working as a Software Engineering trainee focusing on Python development and gaining hands-on experience in various projects related to software development, testing, and deployment.",
+    year: "JULY 2026 - PRESENT",
+    title: "Temporary Academic Instructor <span> University of Sri Jayewardenepura </span>",
+    desc: "Delivering lectures, lab sessions, tutorials, assessments, and project supervision in programming, software engineering, and applied computing.",
   },
 
   {
-    id: 2,
-    category: "education",
-    icon: <FaGraduationCap />,
-    year: "2021 - 2025 - Present",
-    title:
-      "BSc(Hons) in Computer Engineering <span> University of Ruhuna </span>",
-    desc: "Pursuing a degree in Computer Engineering with a focus on software development, algorithms, AI, and machine learning techniques.",
+    id: 1,
+    category: "experience",
+    icon: <FaBriefcase />,
+    year: "JANUARY 2025 - FEBRUARY 2026",
+    title: "AI Full Stack Developer / Software Engineer <span> SCOPULE FZC </span>",
+    desc: "Designing and deploying full-stack applications and AI-powered automation using React, Python, FastAPI, Flask, REST APIs, SQL/NoSQL databases, LLM workflows, computer vision, and cloud-native technologies.",
   },
 
   {
     id: 3,
+    category: "experience",
+    icon: <FaBriefcase />,
+    year: "AUGUST 2024 - FEBRUARY 2025",
+    title: "Software Engineer (Internship) <span> SLT Mobitel Pvt Ltd </span>",
+    desc: "Developed and deployed Flask and PostgreSQL applications, REST API integrations, Docker and Google Cloud Run deployments, CI/CD pipelines, and Bitbucket analytics automation.",
+  },
+
+  {
+    id: 4,
     category: "education",
     icon: <FaGraduationCap />,
-    year: "2019",
-    title: "Advanced Level <span> Zahira College Kalmunai </span>",
-    desc: "Completed A/Ls with a focus on Mathematics, gaining a strong foundation in analytical thinking and problem-solving.",
+    year: "2021 - 2025",
+    title:
+      "BSc (Hons) in Engineering - Computer Engineering <span> University of Ruhuna </span>",
+    desc: "Graduated with a CGPA of 3.21/4.0 (Second Lower Division), with relevant coursework in machine learning, neural networks, data structures, software architecture, blockchain, and cybersecurity.",
   },
 ];
 
@@ -276,7 +286,7 @@ export const skills = [
 export const portfolio = [
   {
     id: 1,
-    img: Work1,
+    img: SportsManagement,
     title: "Sports Management System",
     details: [
       {
@@ -306,35 +316,35 @@ export const portfolio = [
 
   {
     id: 2,
-    img: Work2,
-    title: "Age Prediction Project",
+    img: EmotionHci,
+    title: "Emotion and Speech Aware HCI System",
     details: [
       {
         icon: <FiFileText />,
         title: "Project : ",
-        desc: "Age Prediction Project",
+        desc: "Emotion and Speech Aware Human Computer Interaction System",
       },
       {
         icon: <FiUser />,
         title: "Entity : ",
-        desc: "Individual Project",
+        desc: "Group Project",
       },
       {
         icon: <FaCode />,
         title: " ",
-        desc: "ML, AI, CNN, Python, Streamlit",
+        desc: "Python, OpenCV, MediaPipe, emotion recognition, hand gesture control, and voice commands.",
       },
       {
         icon: <FiExternalLink />,
         title: "Link : ",
-        desc: "https://github.com/Aafrith/Age-prediction-CNN",
+        desc: "https://github.com/Aafrith/Realtime-Emotion-and-Speech-HCI",
       },
     ],
   },
 
   {
     id: 3,
-    img: Work3,
+    img: EcommerceStore,
     title: "Ecommerce Website",
     details: [
       {
@@ -362,7 +372,7 @@ export const portfolio = [
 
   {
     id: 4,
-    img: Work4,
+    img: PortfolioApp,
     title: "Portfolio Web Application",
     details: [
       {
@@ -390,31 +400,63 @@ export const portfolio = [
 
   {
     id: 5,
-    img: Work5,
-    title: "Hotel Management System",
+    img: LearningTracking,
+    title: "Learning System with Eye and Emotion Tracking",
     details: [
       {
+        icon: <FiFileText />,
         title: "Project : ",
-        desc: "Hotel Management System",
+        desc: "Learning System with Eye and Emotion Tracking",
       },
       {
+        icon: <FiUser />,
         title: "Entity : ",
-        desc: "Individual Project",
+        desc: "Group Project",
       },
       {
+        icon: <FaCode />,
         title: " ",
-        desc: "Python, Django, Html, CSS and JavaScript",
+        desc: "React, FastAPI, MongoDB, Agora, WebSockets, eye tracking, and emotion inference.",
       },
       {
+        icon: <FiExternalLink />,
         title: "Link : ",
-        desc: "https://github.com/Aafrith/Hotel-Management-System",
+        desc: "https://github.com/Aafrith/learning-system-with-eye-and-emotion-tracking",
       },
     ],
   },
 
   {
     id: 6,
-    img: Work6,
+    img: SmartMoney,
+    title: "Smart Money Management System",
+    details: [
+      {
+        icon: <FiFileText />,
+        title: "Project : ",
+        desc: "Smart Money Management System",
+      },
+      {
+        icon: <FiUser />,
+        title: "Entity : ",
+        desc: "Group Project",
+      },
+      {
+        icon: <FaCode />,
+        title: " ",
+        desc: "FastAPI, MongoDB Atlas, React, Vite, Tailwind CSS, JWT, YOLO OCR, LLaMA, and speech-to-text.",
+      },
+      {
+        icon: <FiExternalLink />,
+        title: "Link : ",
+        desc: "https://github.com/Aafrith/Money-management-system",
+      },
+    ],
+  },
+
+  {
+    id: 7,
+    img: DjangoCrud,
     title: "Django CRUD Application",
     details: [
       {
@@ -439,6 +481,8 @@ export const portfolio = [
       },
     ],
   },
+
+  
 ];
 
 export const certifications = [

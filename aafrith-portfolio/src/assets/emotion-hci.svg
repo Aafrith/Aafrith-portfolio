@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" role="img" aria-labelledby="title desc">
+  <title id="title">Emotion and speech aware HCI illustration</title>
+  <desc id="desc">A face, gesture cursor, and sound wave connected in a multimodal interface.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#102a43"/>
+      <stop offset="1" stop-color="#167d8d"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffd166"/>
+      <stop offset="1" stop-color="#ef8354"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="700" rx="34" fill="url(#bg)"/>
+  <circle cx="955" cy="110" r="150" fill="#ffffff" opacity=".06"/>
+  <circle cx="150" cy="610" r="210" fill="#ffffff" opacity=".05"/>
+  <rect x="108" y="104" width="590" height="470" rx="28" fill="#081b2b" opacity=".72" stroke="#6bd4d8" stroke-width="4"/>
+  <circle cx="402" cy="300" r="126" fill="url(#accent)"/>
+  <path d="M328 272 Q355 247 382 272 M423 272 Q450 247 477 272" fill="none" stroke="#102a43" stroke-width="14" stroke-linecap="round"/>
+  <circle cx="357" cy="291" r="9" fill="#102a43"/><circle cx="449" cy="291" r="9" fill="#102a43"/>
+  <path d="M350 354 Q402 393 454 354" fill="none" stroke="#102a43" stroke-width="14" stroke-linecap="round"/>
+  <path d="M760 260 q32 -44 64 0 v112 q-32 44 -64 0z M824 236 q32 -44 64 0 v136 q-32 44 -64 0z M888 260 q32 -44 64 0 v112 q-32 44 -64 0z" fill="none" stroke="#ffd166" stroke-width="12" stroke-linecap="round"/>
+  <path d="M772 510 l38 -110 28 48 44 -22 -110 132z" fill="#ffffff" stroke="#102a43" stroke-width="10" stroke-linejoin="round"/>
+  <path d="M738 535 H1080" stroke="#6bd4d8" stroke-width="5" stroke-dasharray="12 14"/>
+  <text x="108" y="645" fill="#ffffff" font-family="sans-serif" font-size="38" font-weight="700" letter-spacing="3">MULTIMODAL HCI</text>
+</svg>

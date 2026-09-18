@@ -13,7 +13,7 @@ const Home = () => {
           <h1 className="home__title">
             <span>I&apos;m Aafrith. </span>
             <br />
-            Software Engineer
+            Software & AI Engineer
           </h1>
 
           <p className="home__description">
